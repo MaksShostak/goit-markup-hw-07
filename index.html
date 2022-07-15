@@ -25,29 +25,29 @@
             <span class="logo__word-web">Web</span
             ><span class="logo__word-studio">Studio</span>
           </a>
-          <ul class="header__site-nav list">
-            <li class="header__item-page">
-              <a class="header__link header__link--active" href="./index.html">Студия</a>
+          <ul class="site-nav list">
+            <li class="site-nav__item-page">
+              <a class="site-nav__link site-nav__link--active" href="./index.html">Студия</a>
             </li>
-            <li class="header__item-page">
-              <a class="header__link" href="./portfolio.html">Портфолио</a>
+            <li class="site-nav__item-page">
+              <a class="site-nav__link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="header__item-page">
-              <a class="header__link" href="" >Контакты</a>
+            <li class="site-nav__item-page">
+              <a class="site-nav__link" href="" >Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="header__site-contact list">
-          <li class="header__item-contact">
-            <a class="header__contact-info" href="mailto:info@devstudio.com">
-              <svg class="header__contact-icon" width="16px" height="12px">
+        <ul class="site-contact list">
+          <li class="site-contact__item">
+            <a class="site-contact__info" href="mailto:info@devstudio.com">
+              <svg class="site-contact__icon" width="16px" height="12px">
                 <use href="./images/symbol-defs.svg#icon-envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="header__item-contact">
-            <a class="header__contact-info" href="tel:+380961111111">
-              <svg class="header__contact-icon" width="10px" height="16px">
+          <li class="site-contact__item">
+            <a class="site-contact__info" href="tel:+380961111111">
+              <svg class="site-contact__icon" width="10px" height="16px">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -461,11 +461,11 @@
             <span class="logo__word-web">Web</span
             ><span class="logo__word-studio">Studio</span>
           </a>
-          <address class="footer__adress">
-            <ul class="footer__adress-list list">
-              <li class="footer__adress-item">
+          <address class="adress">
+            <ul class="adress__list list">
+              <li class="adress__item">
                 <a
-                class="footer__physical-address footer__link"
+                class="adress__physical-address adress__link"
                   href="https://goo.gl/maps/ZD16TCM3uoNAEAxr9"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -473,13 +473,13 @@
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="footer__adress-item">
-                <a class="footer__email footer__link" href="mailto:info@example.com" 
+              <li class="adress__item">
+                <a class="adress__email adress__link" href="mailto:info@example.com" 
                   >info@example.com</a
                 >
               </li>
-              <li class="footer__adress-item">
-                <a class="footer__tel footer__link" href="tel:+380991111111" 
+              <li class="adress__item">
+                <a class="adress__tel adress__link" href="tel:+380991111111" 
                   >+38 099 111 11 11</a
                 >
               </li>
@@ -535,13 +535,13 @@
             </li>
           </ul>
         </div>
-        <form class="footer__subscribe-form" name="subscribe-form">
-          <div class="footer__subscription-wrapper">
-            <label class="footer__subscription-label" for="email"
+        <form class="subscription" name="subscribe-form">
+          <div class="subscription__wrapper">
+            <label class="subscription__label" for="email"
               >Подпишитесь на рассылку</label
             >
             <input
-              class="footer__subscription-input"
+              class="subscription__input"
               type="email"
               name="email"
               id="email"
@@ -549,9 +549,9 @@
               required
             />
           </div>
-          <button class="footer__subscription-button" type="submit">
-            <span class="footer__button-span">Подписаться</span
-            ><svg class="footer__subscription-icon" width="24px" height="24px">
+          <button class="subscription__button" type="submit">
+            <span class="subscription__button-span">Подписаться</span
+            ><svg class="subscription__icon" width="24px" height="24px">
               <use href="./images/symbol-defs.svg#icon-icon-send"></use>
             </svg>
           </button>
@@ -618,18 +618,18 @@
                   rows="10"
                 ></textarea>
               </div>
-              <div class="contact-form__wrapper contact-form__wrapper-agreement">
-                <label class="contact-form__label contact-form__agreement-label" for="agreement">
+              <div class="agreement">
+                <label class="agreement__label" for="agreement">
                   <input
-                    class="contact-form__checkbox-input"
+                    class="agreement__checkbox-input"
                     type="checkbox"
                     name="mailing"
                     value="agreement"
                     id="agreement"
                   />
-                  <span class="contact-form__wrapper-icon">
+                  <span class="agreement__wrapper-icon">
                     <svg
-                      class="contact-form__checkbox-icon changed"
+                      class="agreement__checkbox-icon changed"
                       width="11px"
                       height="8px"
                     >
@@ -640,7 +640,7 @@
                   </span>
                   <span>Соглашаюсь с рассылкой и принимаю</span>
                   <a
-                    class="contact-form__agreement-link"
+                    class="agreement__link"
                     href=""
                     target="_blank"
                     rel="noopener noreferrer"
@@ -649,7 +649,7 @@
                   </a>
                 </label>
               </div>
-              <button class="contact-form__button" type="submit">Отправить</button>
+              <button class="agreement__button" type="submit">Отправить</button>
             </form>
           </div>
     <script src="./js/modal.js"></script>
